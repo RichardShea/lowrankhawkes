@@ -10,8 +10,8 @@ from jax import jit, grad
 from jax.experimental import optimizers
 from tqdm import tqdm
 
-from . import util
-
+# from . import util
+import util
 
 def neumann_approx(W, H, k):
     d = W.shape[1]
